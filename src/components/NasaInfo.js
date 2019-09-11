@@ -22,6 +22,7 @@ function NasaInfo() {
     return (
         <div className="entry">
             <NasaCard
+                date={photo.date}
                 title={photo.title}
                 imgUrl={photo.url}
                 desc={photo.explanation}

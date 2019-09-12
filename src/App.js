@@ -1,15 +1,15 @@
 import React from "react";
+import NasaInfo from "./components/NasaInfo";
 import "./App.css";
+import Calendar from 'react-calendar'
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <NasaInfo />
+
     </div>
-  );
+  )
 }
 
 export default App;

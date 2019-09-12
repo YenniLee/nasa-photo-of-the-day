@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 2em;
 }
 
 .App-logo {
@@ -30,4 +31,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.APOD {
+  border: 3px solid #61dafb;
+  width: 80%;
+}
+
+p {
+  margin: 1em;
+  font-size: 1.2rem;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
 }

@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-  border: 3px solid red;
   margin: 2em;
-  
 }
 
 .App-logo {
@@ -41,7 +39,10 @@
 }
 
 p {
-  background-color: pink;
   margin: 1em;
   font-size: 1.2rem;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
 }
